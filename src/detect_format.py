@@ -51,6 +51,7 @@ from text-based PDFs.
 
 if __name__ == "__main__":
     
+    #manual test
     import sys
 
     if len(sys.argv) != 2:
