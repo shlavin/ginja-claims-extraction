@@ -1,0 +1,321 @@
+[
+  {
+    "source_file": "Nairobi_Lifecare_Hospital_Invoice_Deepak_Bodkhe.pdf",
+    "extraction_method": "pdf_text",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1536400",
+      "provider_name": "Nairobi Lifecare Hospital",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 9548.97,
+      "currency": "KES",
+      "invoice_number": "NLH-INV-2026-002"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing"
+    ],
+    "confidence_score": 0.5,
+    "raw_text_snippet": "Nairobi Lifecare Hospital\nNAIROBI\nLIFECARE\nOutpatient Invoice\nInvoice No: NLH-INV-2026-002\nFull Name: Deepak Bodkhe\nInsurance Member No: 1536400\nHospital No: 800120\nVisit Type: Outpatient\nPhone: -\nDat",
+    "processing_time_seconds": 0.04
+  },
+  {
+    "source_file": "Nairobi_Lifecare_Hospital_Invoice_Deepak_Bodkhe.pdf",
+    "extraction_method": "vlm",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1536400",
+      "provider_name": "Nairobi Lifecare Hospital",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 9548.97,
+      "currency": "KES",
+      "invoice_number": "NLH-INV-2026-002"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing"
+    ],
+    "confidence_score": 0.5,
+    "raw_text_snippet": "{\n\"claim_id\": null,\n  \"member_id\": \"1536400\",\n  \"provider_name\": \"Nairobi Lifecare Hospital\",\n  \"provider_id\": null,\n  \"date_of_service\": \"12 Feb 2026\",\n  \"diagnosis_code\": null,\n  \"procedure_code\": n",
+    "processing_time_seconds": 5.34
+  },
+  {
+    "source_file": "Nairobi_Lifecare_Hospital_Invoice_Sharma_Siddharth.pdf",
+    "extraction_method": "pdf_text",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1536500",
+      "provider_name": "Nairobi Lifecare Hospital",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 17000.0,
+      "currency": "KES",
+      "invoice_number": "NLH-INV-2026-003"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing"
+    ],
+    "confidence_score": 0.5,
+    "raw_text_snippet": "Nairobi Lifecare Hospital\nNAIROBI\nLIFECARE\nOutpatient Invoice\nInvoice No: NLH-INV-2026-003\nFull Name: Sharma Siddharth\nInsurance Member No: 1536500\nHospital No: 100120\nVisit Type: Dental\nPhone: -\nDate",
+    "processing_time_seconds": 0.04
+  },
+  {
+    "source_file": "Nairobi_Lifecare_Hospital_Invoice_Sharma_Siddharth.pdf",
+    "extraction_method": "vlm",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1536500",
+      "provider_name": "Nairobi Lifecare Hospital",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 17000.0,
+      "currency": "KES",
+      "invoice_number": "NLH-INV-2026-003"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing"
+    ],
+    "confidence_score": 0.5,
+    "raw_text_snippet": "{\n\"claim_id\": null,\n  \"member_id\": \"1536500\",\n  \"provider_name\": \"Nairobi Lifecare Hospital\",\n  \"provider_id\": null,\n  \"date_of_service\": \"12 Feb 2026\",\n  \"diagnosis_code\": null,\n  \"procedure_code\": n",
+    "processing_time_seconds": 3.07
+  },
+  {
+    "source_file": "Nairobi_Lifecare_Hospital_Invoice_Wanjiku_Kamau.pdf",
+    "extraction_method": "pdf_text",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1538500",
+      "provider_name": "Nairobi Lifecare Hospital",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 4300.0,
+      "currency": "KES"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code",
+      "invoice_number"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing"
+    ],
+    "confidence_score": 0.4,
+    "raw_text_snippet": "NAIROBI Nairobi Lifecare Hospital\nLIFECARE\nOutpatient Invoice\nFull Name: Wanjiku Kamau\nInsurance Member No: 1538500\nHospital No: 400120\nVisit Type: Outpatient\nPhone: 250781261474\nDate: 12 Feb 2026\nSer",
+    "processing_time_seconds": 0.03
+  },
+  {
+    "source_file": "Nairobi_Lifecare_Hospital_Invoice_Wanjiku_Kamau.pdf",
+    "extraction_method": "vlm",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1538500",
+      "provider_name": "Nairobi Lifecare Hospital",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 4300.0,
+      "currency": "KES"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code",
+      "invoice_number"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing"
+    ],
+    "confidence_score": 0.4,
+    "raw_text_snippet": "{\n\"claim_id\": null,\n  \"member_id\": \"1538500\",\n  \"provider_name\": \"Nairobi Lifecare Hospital\",\n  \"provider_id\": null,\n  \"date_of_service\": \"12 Feb 2026\",\n  \"diagnosis_code\": null,\n  \"procedure_code\": n",
+    "processing_time_seconds": 2.69
+  },
+  {
+    "source_file": "Deepak_Bodkhe_Claim_Form.pdf",
+    "extraction_method": "ocr",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1536400",
+      "provider_name": "Simon Roger",
+      "currency": "KES"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "date_of_service",
+      "diagnosis_code",
+      "procedure_code",
+      "claimed_amount",
+      "invoice_number"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing",
+      "required field 'claimed_amount' is missing",
+      "required field 'date_of_service' is missing"
+    ],
+    "confidence_score": 0.0,
+    "raw_text_snippet": "c) EDEN CARE\n\nEden Care Medical Health insurance Claims Form\nVisit ID: 20011941\n4. Patient Details\n\nMembership number\u2019 1536400 _\n\nSurname Bodkhe\n\nFirstname(s)(as peridentitydocument) Deepak\n\nGender YM",
+    "processing_time_seconds": 5.47,
+    "low_confidence_fields": [
+      "date_of_service",
+      "diagnosis_code",
+      "claimed_amount"
+    ]
+  },
+  {
+    "source_file": "Deepak_Bodkhe_Claim_Form.pdf",
+    "extraction_method": "vlm",
+    "claim_id": "20011941",
+    "fields_extracted": {
+      "claim_id": "20011941",
+      "member_id": "1536400",
+      "provider_name": "Simon Roger",
+      "date_of_service": "2025-08-08",
+      "claimed_amount": 9548.97,
+      "currency": "KES"
+    },
+    "fields_missing": [
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code",
+      "invoice_number"
+    ],
+    "validation_flags": [],
+    "confidence_score": 0.6,
+    "raw_text_snippet": "{\n\"claim_id\": \"20011941\",\n  \"member_id\": \"1536400\",\n  \"provider_name\": \"Simon Roger\",\n  \"provider_id\": null,\n  \"date_of_service\": \"08-08-2025\",\n  \"diagnosis_code\": null,\n  \"procedure_code\": null,\n  \"c",
+    "processing_time_seconds": 3.92
+  },
+  {
+    "source_file": "Sharma_Siddharth_Claim_Form.pdf",
+    "extraction_method": "ocr",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1536500",
+      "provider_name": "Wanjiku Mwangi",
+      "currency": "KES"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "date_of_service",
+      "diagnosis_code",
+      "procedure_code",
+      "claimed_amount",
+      "invoice_number"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing",
+      "required field 'claimed_amount' is missing",
+      "required field 'date_of_service' is missing"
+    ],
+    "confidence_score": 0.0,
+    "raw_text_snippet": "Eden Care Medical Health insurance Claims Form c) EDEN CARE\n\nVisit ID: 20011942\n\n1. Patient Details\n\nMembership number: 1536500\n\nSumame Sharma\n\nFirstname(s)(as peridentitydocument) Siddharth _\n\nDate o",
+    "processing_time_seconds": 5.07,
+    "low_confidence_fields": [
+      "date_of_service",
+      "diagnosis_code",
+      "claimed_amount"
+    ]
+  },
+  {
+    "source_file": "Sharma_Siddharth_Claim_Form.pdf",
+    "extraction_method": "vlm",
+    "claim_id": "20011942",
+    "fields_extracted": {
+      "claim_id": "20011942",
+      "member_id": "1536500",
+      "provider_name": "Wanjiku Mwangi",
+      "date_of_service": "2026-08-28",
+      "claimed_amount": 17000.0,
+      "currency": "KES"
+    },
+    "fields_missing": [
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code",
+      "invoice_number"
+    ],
+    "validation_flags": [
+      "date_of_service is in the future: 2026-08-28"
+    ],
+    "confidence_score": 0.5,
+    "raw_text_snippet": "{\n\"claim_id\": \"20011942\",\n  \"member_id\": \"1536500\",\n  \"provider_name\": \"Wanjiku Mwangi\",\n  \"provider_id\": null,\n  \"date_of_service\": \"28-08-2026\",\n  \"diagnosis_code\": null,\n  \"procedure_code\": null,\n ",
+    "processing_time_seconds": 31.85
+  },
+  {
+    "source_file": "claim_form_Wanjiku_Kamua.pdf",
+    "extraction_method": "ocr",
+    "claim_id": null,
+    "fields_extracted": {
+      "member_id": "1538500",
+      "provider_name": "ERIC ABAYO",
+      "currency": "KES"
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "date_of_service",
+      "diagnosis_code",
+      "procedure_code",
+      "claimed_amount",
+      "invoice_number"
+    ],
+    "validation_flags": [
+      "required field 'claim_id' is missing",
+      "required field 'claimed_amount' is missing",
+      "required field 'date_of_service' is missing"
+    ],
+    "confidence_score": 0.0,
+    "raw_text_snippet": "Eden Care Medical Health Insurance Claims Form\n\nVisit IDO: 20011943\n1. Patient Detaite\n\nMembership number 1538500\n\nSurname . Kamau\n\nFirstname(s)(as per identitydocument) Wanjiku\n\nDate of birth 15\u00b0-08\u00b0",
+    "processing_time_seconds": 50.06,
+    "low_confidence_fields": [
+      "date_of_service",
+      "diagnosis_code",
+      "claimed_amount"
+    ]
+  },
+  {
+    "source_file": "claim_form_Wanjiku_Kamua.pdf",
+    "extraction_method": "vlm",
+    "claim_id": "20011943",
+    "fields_extracted": {
+      "claim_id": "20011943",
+      "member_id": "1538500",
+      "provider_name": "ERIC ABAYO",
+      "date_of_service": "2026-10-23",
+      "claimed_amount": 4300.0,
+      "currency": "KES"
+    },
+    "fields_missing": [
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code",
+      "invoice_number"
+    ],
+    "validation_flags": [
+      "date_of_service is in the future: 2026-10-23"
+    ],
+    "confidence_score": 0.5,
+    "raw_text_snippet": "{\n\"claim_id\": \"20011943\",\n  \"member_id\": \"1538500\",\n  \"provider_name\": \"ERIC ABAYO\",\n  \"provider_id\": null,\n  \"date_of_service\": \"23-10-2026\",\n  \"diagnosis_code\": null,\n  \"procedure_code\": null,\n  \"cl",
+    "processing_time_seconds": 64.4
+  }
+]
